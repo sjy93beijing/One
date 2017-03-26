@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:app= "http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.sjy.recycleview.RecycleTestActivity"
+    >
+    <item
+        android:id="@+id/action_delete"
+        android:orderInCategory="100"
+        android:title="Delete"
+        android:icon="@drawable/ic_menu_delete"
+        app:showAsAction="ifRoom"
+   />
+    <item
+        android:id="@+id/action_add"
+        android:orderInCategory="100"
+        android:title="Add"
+        android:icon="@drawable/ic_menu_add"
+        app:showAsAction="ifRoom"
+        />
+    <!--把图标显示在ActionBar上面
+    -->
+    <item
+        android:id="@+id/pubuView"
+        android:orderInCategory="100"
+        android:title="@string/pubuView"
+        />
+    <item
+        android:id="@+id/gridView"
+        android:orderInCategory="90"
+        android:title="@string/gridView"
+        />
+    <item
+        android:id="@+id/lineView"
+        android:orderInCategory="80"
+        android:title="@string/lineView"
+        />
+</menu>

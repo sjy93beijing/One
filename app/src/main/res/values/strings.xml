@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LikeDouban</string>
+    <string name="GridView">图片框</string>
+    <string name="navigation_drawer_open">打开导航抽屉栏</string>
+    <string name="navigation_drawer_close">关闭导航抽屉栏</string>
+    <string name="action_settings">Settings</string>
+    <string name="ListView">ListView</string>
+    <string name="GradderdView">瀑布流</string>
+</resources>

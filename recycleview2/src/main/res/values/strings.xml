@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RecycleView</string>
+    <string name="gridView">GridView</string>
+    <string name="pubuView">瀑布流</string>
+    <string name="lineView">ListView</string>
+
+</resources>

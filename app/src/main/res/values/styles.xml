@@ -1,0 +1,24 @@
+<resources>
+
+    <style name="AppTheme" parent="MyThemePink"></style>
+    <!-- Base application theme. -->
+    <style name="MyThemePink" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- 选中状态字体和颜色  红色为主色调 -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--正常状态下字体颜色和icon颜色-->
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="ToolbarStyle" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+</resources>

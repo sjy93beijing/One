@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></WebView>
+    <!--<com.sendtion.xrichtext.RichTextEditor-->
+        <!--android:id="@+id/et_new_content"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:textSize="@dimen/text_size_16"-->
+        <!--android:textColor="@color/text_gray_4"/>-->
+    <!--<com.sendtion.xrichtext.RichTextView-->
+        <!--android:id="@+id/tv_note_content"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:textSize="@dimen/text_size_16"-->
+        <!--android:textColor="@color/text_gray_4"/>-->
+</RelativeLayout>
